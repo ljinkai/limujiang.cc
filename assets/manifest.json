@@ -1,0 +1,43 @@
+{
+  "name": "limujiang",
+  "short_name": "limujiang.cc",
+  "version": "1.0.0",
+  "description": "limujiang",
+  "start_url": "/",
+  "launch_path": "/?l=true",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ff8830",
+  "icons": [{
+      "src": "/images/lead/icons/G-Logo-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }, {
+      "src": "/images/lead/icons/G-Logo-152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    }, {
+      "src": "/images/lead/icons/G-Logo-144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }, {
+      "src": "/images/lead/icons/G-Logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/lead/icons/G-Logo-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/images/lead/icons/G-Logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+  }],
+  "author": {
+    "name": "limujiang",
+    "website": "https://www.limujiang.cc"
+  }
+}
