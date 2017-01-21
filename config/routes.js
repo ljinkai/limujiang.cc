@@ -41,6 +41,8 @@ module.exports.routes = {
   '/show': {
     view: 'show'
   },
+
+  'get /i/:id': "MainController.article",
   'get /unhappy/:id': "APlanController.unsubscribe",
   'post /unhappy': "APlanController._unsubscribe",
   'get /r': "APlanController.redirect",

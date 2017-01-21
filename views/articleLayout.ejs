@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>狸木匠-程序员的健康品牌</title>
+    <title><%= title %></title>
     <meta charset="utf-8"/>
     <meta name="keywords"
-          content="站立办公桌,程序员,健康,狸木匠,程序员,站立办公,站立式,木匠,limujiang,健康,木头">
+          content="<%= title %>,程序员,健康,狸木匠,木头">
     <meta name="description"
-          content="关注程序员健康,Li-desk站立式办公桌,不一样的编程体验,这里是程序员的健康大本营，我们一起让自己的生活更美好">
+          content="<%= desc %>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="theme-color" content="#000000">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
     <link rel="manifest" href="/manifest.json">
-    <meta property="og:title" content="狸木匠-程序员的健康品牌"/>
-    <meta property="og:description" content="关注程序员健康,Li-desk站立式办公桌,不一样的编程体验,这里是程序员的健康大本营，我们一起让自己的生活更美好"/>
+    <meta property="og:title" content="<%= title %>"/>
+    <meta property="og:description" content="<%= desc %>"/>
     <meta property="og:image" content="/images/logo/logo_375x375.jpg"/>
     <meta property="og:type" content="item"/>
     <meta property="og:site_name" content="limujiang"/>
@@ -24,9 +24,15 @@
 
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/article.css">
 </head>
 <body>
-    <%- body %>
+<div style="width: 100%;height: 80px;">
+        <a href="/">
+            <img style="width: 40px;position: absolute;left: 50%;top: 10px;margin-left: -40px;" src="/images/logo/limujiang.png"/>
+        </a>
+</div>
+<%- body %>
 <% include baidu.ejs %>
 </body>
 </html>
