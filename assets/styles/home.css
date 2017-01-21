@@ -81,6 +81,14 @@
 }
 .users_item_400 {background-size: 400px;}
 .users_img {float: left;}
+
+/**
+ * article
+ */
+.home_article {line-height: 26px;color: #f76b58;text-decoration: none;display: block;}
+.center {text-align: center;}
+.center img {width: 100%;}
+.article_extend {font-size: 14px;line-height:18px;color: #777;margin-bottom: 60px;}
 @media (max-width: 600px) {
     .users_item {width: 100%;max-width:100%;
     }

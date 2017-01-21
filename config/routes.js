@@ -43,6 +43,7 @@ module.exports.routes = {
   },
 
   'get /i/:id': "MainController.article",
+  'get /i/:id/:title': "MainController.article",
   'get /unhappy/:id': "APlanController.unsubscribe",
   'post /unhappy': "APlanController._unsubscribe",
   'get /r': "APlanController.redirect",

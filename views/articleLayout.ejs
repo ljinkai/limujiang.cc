@@ -17,22 +17,25 @@
     <meta property="og:image" content="/images/logo/logo_375x375.jpg"/>
     <meta property="og:type" content="item"/>
     <meta property="og:site_name" content="limujiang"/>
+    <% include article_style.ejs %>
 
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/home.css">
-    <link rel="stylesheet" href="/styles/article.css">
 </head>
 <body>
 <div style="width: 100%;height: 80px;">
         <a href="/">
-            <img style="width: 40px;position: absolute;left: 50%;top: 10px;margin-left: -40px;" src="/images/logo/limujiang.png"/>
+            <img style="width: 40px;position: absolute;left: 50%;top: 10px;margin-left: -20px;" src="/images/logo/limujiang.png"/>
         </a>
 </div>
 <%- body %>
+
+<div class="article_extend">
+    <p style="text-align: center;font-size: 12px;">◆</p>
+    <p style="text-align: center;">狸木匠，关注程序员健康</p>
+    <p style="text-align: center;">网站：<a href="http://www.limujiang.cc" target="_self" style="text-decoration: none;">www.limujiang.cc</a>
+        <span style="margin-left: 16px;">微博：<a href="http://weibo.com/limujiang10" target="_blank" style="text-decoration: none;">@狸木匠</a></span></p>
+    <p style="text-align: center;">店铺：<a target="_blank" href="https://weidian.com/?userid=318291100" style="text-decoration: none;">狸木匠店铺</a></p>
+</div>
+
 <% include baidu.ejs %>
 </body>
 </html>
