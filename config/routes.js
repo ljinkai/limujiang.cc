@@ -32,14 +32,15 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  },
+  '/': "MainController.main",
   '/about': {
     view: 'about'
   },
   '/show': {
     view: 'show'
+  },
+  '/limujiang-group': {
+    view: 'group'
   },
 
   'get /i/:id': "MainController.article",

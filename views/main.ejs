@@ -1,0 +1,53 @@
+<div class="main">
+    <% include header.ejs %>
+    <section class="main_limit">
+        <div class="main_section">
+            <a class="main_pro_item main_pro_item_desk" href="https://weidian.com/item.html?itemID=1940962995" target="_blank">
+                <img src="https://si.geilicdn.com/vshop318291100-1474207105679-4162553.jpg?w=750&h=750&cp=1" class="main_item_img_desk"/>
+                <div class="main_pro_item_desc">
+                    <div class="main_pro_item_text">Li-Desk程序员专用站立办公桌, 纯卯榫结构，易组装，便携，包邮</div>
+                    <div class="main_pro_item_price">￥298</div>
+                </div>
+            </a>
+            <a class="main_pro_item main_pro_item_pillow" href="https://weidian.com/item.html?itemID=1951387964" target="_blank">
+                <img src="https://si.geilicdn.com/vshop318291100-1474331496705-7662500.jpg?w=1200&h=800" class="main_item_img">
+                <div class="main_pro_item_desc">
+                    <div class="main_pro_item_text">Li-Pillow原木枕, 修复颈椎、深度睡眠</div>
+                    <div class="main_pro_item_price">￥98</div>
+                </div>
+
+            </a>
+            <a class="main_pro_item main_pro_item_cube" href="https://weidian.com/item.html?itemID=1997251269" target="_blank">
+                <img src="http://7u2qrr.com1.z0.glb.clouddn.com/2017-02-16-cube.jpg?imageView2/2/w/600" class="main_item_img">
+                <div class="main_pro_item_desc">
+                    <div class="main_pro_item_text">Fidget Cube减压工具，降烦躁噪能量块</div>
+                    <div class="main_pro_item_price">￥49</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <%
+    articles.forEach(function(article,index) {%>
+    <div class="main_art_item">
+
+        <div class="main_art_item_limit">
+            <a class="main_art_item_pre" href="/i/<%=article.id %>/<%=article.title%>">
+                <img class="main_art_img" src="<%=article.img%>"/>
+            </a>
+            <div class="main_art_con">
+                <a href="/i/01/周报01 | 娱乐不是休息" title="周报01 | 娱乐不是休息" class="main_art_a"><%=article.title%></a>
+                <div class="main_art_desc"><%=article.desc %></div>
+            </div>
+        </div>
+    </div>
+    <%}) %>
+
+
+</div>
+    <% include footer.ejs %>
+
+
+</div>
+
+
