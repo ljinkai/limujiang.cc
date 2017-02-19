@@ -190,6 +190,8 @@
     .main_pro_item_pillow {width: 100%;}
     .main_pro_item_cube {width: 100%;}
     .main_item_img {width: 100%;}
+    .markdown-here-wrapper img {width: 100%;}
+    .main_art_desc {padding: 0px 15px;}
 }
 @media (max-width: 767px) {
     .home_center {width: 320px;}
