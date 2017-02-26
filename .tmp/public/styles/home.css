@@ -124,6 +124,9 @@
     font-weight: normal;
     padding: 0px !important;
     margin: 0px !important;}
+.main_title_a {color: black;}
+.main_title_a:active {color: black;}
+.main_title_a:hover {color: black;}
 .main_header_h2 {float: right;font-size: 15px;margin: 0px;margin-left: 20px;margin-right:15px;font-weight: normal;
 }
 .main_header h2 {padding: 0px !important;
