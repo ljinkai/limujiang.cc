@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>那些好知识 | 好知识123</title>
+    <meta charset="utf-8"/>
+    <meta name="keywords"
+          content="好知识,得到,知乎Live,一块听听,小密圈">
+    <meta name="description"
+          content="有哪些知识值得看，值得听，知识界的豆瓣">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+    <link rel="manifest" href="/manifest.json">
+    <meta property="og:title" content="那些好知识 | 好知识123"/>
+    <meta property="og:description" content="有哪些知识值得看，值得听，知识界的豆瓣"/>
+    <meta property="og:image" content="/images/logo/logo_375x375.jpg"/>
+    <meta property="og:type" content="item"/>
+    <meta property="og:site_name" content="haozhishi123.com"/>
+    <style>
+        .main {}
+        .line_block {width: 100%;}
+        .line_block_border_bottom {border-bottom: solid 1px #DEDEDE;}
+
+        .line_con {width: 960px;margin: 0px auto;}
+        .nav_banner {height: 60px;line-height: 60px;font-size: 22px;}
+        .intro {padding: 25px 0px;text-align: center;}
+        .newsletter {height: 100px;padding-top: 50px;}
+        .line_con_desc {padding: 50px 0px;width: 600px;}
+        .line_con_footer {padding: 50px 0px;width: 600px;position: relative;}
+        .line_con_desc_tip {font-size: 16px;}
+
+        .intro_email {
+            -webkit-appearance: none;
+            border-radius: 0px;
+            color: #555;
+            border: solid 1px #DEDEDE;
+            border-left: solid 3px #DD4C4F;
+            outline: none;
+            padding: 5px 10px;
+            min-height: 44px;
+            font-family: "Avenir-light","AvenirLTStd-Light";
+            width: 300px;
+            margin-right: 16px;
+            font-size: 16px;;
+        }
+        .line_subscribe {height: 300px;}
+        .line_con_subscribe {
+            float: left;
+            width: 100%;
+            clear: both;
+            margin: 100px 0px;
+        }
+        .email_input,.email_subscribe {float: left;}
+        .email_input {
+
+        }
+        .email_subscribe {
+            font-family: "Avenir-Medium","AvenirLTStd-Medium";
+            background: #DD4C4F;
+            color: #fff;
+            margin: 0px;
+            width: 150px;
+            text-transform: uppercase;
+            vertical-align: top;
+            letter-spacing: 4.5px;
+            cursor: pointer;
+            height: 56px;
+            line-height: 56px;
+            display: inline-block;
+            text-align: center;
+        }
+        .link_ul a {color: #555;text-decoration: none;cursor: pointer;}
+        .link_ul a:hover {color: #DD4C4F;text-decoration: underline;}
+        .link_ul li {list-style: none;height: 25px;}
+        .email_tip {
+            float: left;
+            font-size: 14px;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <nav class="line_block">
+        <div class="line_con nav_banner" style="line-height: 80px;height: 80px;">
+            <img src="/images/pub/logo_300x300.png" style="width: 80px;height: 80px;float: left;">
+            <span style="float:left;margin-left: 8px;">好知识123</span>
+        </div>
+
+    </nav>
+    <div class="line_block line_block_border_bottom">
+        <div class="line_con intro">
+            <h1 class="header-title">有哪些好知识</h1>
+            <h2 class="header-tagline">值得看，值得听，知识界的豆瓣</h2>
+            <div class="newsletter">
+                <div style="width: 500px;margin: 0px auto">
+                    <div class="email_input">
+                        <input id="top_email" type="email" class="intro_email" placeholder="留下邮箱，第一时间通知你">
+                    </div>
+                    <div class="email_subscribe" onclick="subscribe_top(event)">订阅</div>
+                    <div id="top_email_tip" class="email_tip"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line_block line_block_border_bottom">
+        <div class="line_con line_con_desc">
+            <h2 style="text-align: center;">痛点</h2>
+            <p>
+                我想听⌈区块链⌋方面的知识，我得去知乎Live、得到、一块听听...我从上面一直拉到下面，老子翻了几十页，
+                你给我说"已经到底了"
+            </p>
+            <p>
+                我想听⌈最有价值⌋的知识，可你们首先要付费入会，我想参考已经已经学习过的人的一些意见，可是，我不知道去哪找
+            </p>
+            <p>
+                有些知识是可以分享给别人的，如果一个人分享⌈得到⌋里的知识，既可以赚积分，也能让别人免费的收听，成就自己，愉悦别人
+            </p>
+        </div>
+    </div>
+
+    <div class="line_block line_block_border_bottom">
+
+
+        <div class="line_con line_con_desc">
+            <h2 style="text-align: center;">想做</h2>
+            <p>
+                <span>V1.0 - 完成搜索：</span>
+                <span class="line_con_desc_tip">根据关键字搜到你想找的知识，各个平台一览无余</span>
+            </p>
+            <p>
+                V2.0 - 增加用户评论：付费用户的真实反馈，你再决定值不值得听
+            </p>
+            <p>
+                V3.0 - 增加优惠分享：付费用户分享链接，大家免费听
+            </p>
+        </div>
+    </div>
+    <div class="line_block line_subscribe line_block_border_bottom">
+        <div class="line_con line_con_subscribe">
+            <div style="width: 500px;margin: 0px auto">
+                <div class="email_input">
+                    <input id="bottom_email" type="email" class="intro_email" placeholder="留下邮箱，第一时间通知你">
+                </div>
+                <div class="email_subscribe" onclick="subscribe_bottom(event)">订阅</div>
+                <div id="bottom_email_tip" class="email_tip"></div>
+            </div>
+        </div>
+    </div>
+    <div class="line_block">
+        <div class="line_con line_con_footer">
+            <ul class="link_ul">
+                <li><a href="https://www.zhihu.com/lives" target="_blank">知乎Live</a></li>
+                <li><a href="https://live.tinfinite.com/" target="_blank">一块听听</a></li>
+                <li><a href="https://www.igetget.com/" target="_blank">得到</a></li>
+                <li><a href="http://www.hundun.cn/" target="_blank">混沌研习社</a></li>
+            </ul>
+            <div style="position: absolute;right: 50px;top: 120px;font-size: 14px">
+                <div>联系我们：ljinkai@126.com</div>
+                <div>© 2017 好知识123</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-85358197-4', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script>
+    function subscribe_top() {
+        var v1 = document.getElementById("top_email").value;
+
+        console.log(v1 + "_top");
+        ga('send', 'event','email_view',v1 + "_top");
+        document.getElementById("top_email_tip").innerText = "小好收到，有新进展及时通知你！";
+    }
+    function subscribe_bottom() {
+        var v2 = document.getElementById("bottom_email").value;
+
+        console.log(v2 + "_bottom");
+        ga('send', 'event','email_view',v2 + "_bottom");
+        document.getElementById("bottom_email_tip").innerText = "小好收到，有新进展及时通知你！";
+    }
+</script>
+</body>
+</html>

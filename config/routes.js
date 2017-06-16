@@ -42,6 +42,7 @@ module.exports.routes = {
   '/limujiang-group': {
     view: 'group'
   },
+  '/haozhishi123': "HaoController.main",
 
   'get /i/:id': "MainController.article",
   'get /i/:id/:title': "MainController.article",
